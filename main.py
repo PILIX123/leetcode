@@ -1,2 +1,4 @@
-from Subsets.subsets import Solution
-print(Solution().subsets([1,2,3]))
+from Group_Anagrams.groupAnagrams import Solution
+print(Solution().groupAnagrams(
+    ["eat","tea","tan","ate","nat","bat"]
+))
